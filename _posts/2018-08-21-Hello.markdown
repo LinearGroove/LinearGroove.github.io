@@ -35,6 +35,6 @@ def foo
 end
 {% endhighlight %}
 
-{% highlight python %}
+{% highlight python linenos %}
 print("Hello")
 {% endhighlight %}
