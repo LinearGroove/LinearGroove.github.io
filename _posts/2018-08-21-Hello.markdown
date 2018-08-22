@@ -9,6 +9,7 @@ Test blog
 ![MATH]({{ "/assets/MATH.png" | absolute_url }})
 
 
+<p>without smartify</p>
 <ul>
   {% for post in site.posts %}
     <li>
@@ -16,3 +17,15 @@ Test blog
     </li>
   {% endfor %}
 </ul>
+
+<p>with smartify</p>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title | smartify}}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+
+
