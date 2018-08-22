@@ -29,3 +29,12 @@ Test blog
 
 
 
+{% highlight ruby %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
+
+{% highlight python %}
+print("Hello")
+{% endhighlight %}
